@@ -1,0 +1,63 @@
+body{
+    background-color: hsl(229, 66%, 72%);;
+}
+
+.container, .container-fluid {
+    background-color: c0c0c0
+   
+  }
+  
+  .row {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  header, main {
+    background-color: #ffffffc7;
+    font-size: 15px;
+    padding: 10px 5px;
+    text-align: center;
+    height: 100px;
+    border-radius: 30px;
+  }
+  
+  main {
+    background-color: #c0bec5;
+  }
+  
+  .font{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #131111;
+  }
+
+  @media screen and (max-width: 1920px) {
+    main {
+      height: 35vh;
+    }
+  }
+  
+  @media screen and (max-width: 980px) {
+    main {
+      height: 60vh;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    main {
+      height: 50vh;
+    }
+  }
+
+  h2{
+    color: #ece6e6;
+  }
+
+  .pad{
+    padding-top: 5px;
+  }
+
+  footer{
+    background-color: #e2e293;
+    border-radius: 30px;
+  }
